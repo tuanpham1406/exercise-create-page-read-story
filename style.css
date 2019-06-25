@@ -6,7 +6,6 @@ body {
 
 #head {
     background: url("https://ephoto360.com/images/user_image/2019/06/5d119f0be3697.jpg");
-    /*opacity: 0.4;*/
     height: 120px;
     width: 100%;
     position: relative;
@@ -28,8 +27,8 @@ body {
 }
 
 #heal {
+    background-color: white;
     color: white;
-    font-size: 2px;
 }
 
 #head-link {
@@ -79,4 +78,28 @@ input[type=button] {
     background: white url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
     padding: 5px 4px 10px 32px;
     border-radius: 10em;
+}
+
+.list {
+    width: 100px;
+    background-color: #D8D8D8;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 6px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list-0 {
+    width: 100px;
+    background-color: red;
+    color: black;
+    font-size: 25px;
+    list-style-type: none;
+    margin: 6px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
 }
