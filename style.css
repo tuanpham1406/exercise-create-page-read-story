@@ -1,0 +1,82 @@
+body {
+    background: url("https://ephoto360.com/images/user_image/2019/06/5d11a3aae0965.jpg");
+    margin: 0;
+    background-size: cover;
+}
+
+#head {
+    background: url("https://ephoto360.com/images/user_image/2019/06/5d119f0be3697.jpg");
+    /*opacity: 0.4;*/
+    height: 120px;
+    width: 100%;
+    position: relative;
+}
+
+#head-0 {
+    background: url("https://ephoto360.com/images/user_image/2019/06/5d11a8e8d1de1.jpg");
+    background-size: contain;
+    position: absolute;
+    height: 120px;
+    width: 200px;
+    top: 0;
+    left: 0;
+}
+
+#head-1 {
+    position: absolute;
+    right: 0;
+}
+
+#heal {
+    color: white;
+    font-size: 2px;
+}
+
+#head-link {
+    background: black;
+    height: 40px;
+    width: 100%;
+}
+
+.menuitem {
+    width: 165px;
+    float: left;
+    background-color: #D8D8D8;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 6px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuitem:nth-child(1) {
+    background-color: #00FF00;
+}
+
+.menuitem:hover {
+    background-color: #81F781;
+}
+
+input[type=search]{
+    right: 0;
+    width: 400px;
+    height: 35px;
+    background: white;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #fff;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=button] {
+    right: 0;
+    background: white url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    padding: 5px 4px 10px 32px;
+    border-radius: 10em;
+}
